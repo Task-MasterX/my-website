@@ -1,6 +1,6 @@
 # My Website
 
-Welcome to my website! This is a simple HTML project that showcases [brief description of your website].
+Welcome to my website! This is a simple HTML project that showcases some skills.
 
 ## Features
 
