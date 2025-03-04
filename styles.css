@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #ecf0f1;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(44, 62, 80, 0.9);
+    border-bottom: 5px solid #e74c3c;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background: rgba(44, 62, 80, 0.8);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add some space between the items */
+}
+
+nav ul li a {
+    font-size: 1.5em; /* Increase the font size for navigation links */
+    color: #ecf0f1; /* Ensure the text color is visible against the background */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add some padding for better clickability */
+}
+
+nav ul li a:hover {
+    background: rgba(231, 76, 60, 0.8); /* Change background on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(44, 62, 80, 0.9);
+    color: #ecf0f1;
+}
